@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Reservation Form</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header id="header">
+				<div class="logo"><img src="./images/logo.png" alt="" srcset="" /></div>
+			</header>
+			<section class="form-wrapper">
+				<div class="section-header">
+					<h1>The best craft beer in spain!</h1>
+					<p>
+						Bienvenido, amigos! We are completely fictional location. But the
+						does not mean we can't imagine the best beer in spain!
+					</p>
+				</div>
+
+				<form action="" class="form">
+					<div class="form-header">
+						<h2>Make a Reservation</h2>
+						<p>Get your spot before somebody else does</p>
+					</div>
+
+					<label for="Name"> Your Name </label><br />
+					<input type="text" placeholder="Tony Montana" required /> <br />
+
+					<label for="email"> Your Email </label><br />
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="tmontana@yourmail.com"
+						required
+					/>
+					<br />
+
+					<label for="ReservationDate"> Reservation Time </label><br />
+					<input
+						type="date"
+						name="date"
+						id="date"
+						placeholder="Pick your Date"
+					/>
+					<br />
+					<input type="button" value="Reserve now" id="btn" />
+				</form>
+			</section>
+		</div>
+	</body>
+</html>
